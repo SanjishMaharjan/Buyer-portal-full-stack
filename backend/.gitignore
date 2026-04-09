@@ -1,0 +1,29 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+# Ignore next-app build output
+.next
+out
+dist
+build
+.build
+
+# Ignore Yarn lockfile
+yarn.lock
+package-lock.json
+
+# Ignore coverage directory
+coverage
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore VSCode files
+.vscode
+
+# Ignore Apple macOS Finder files
+.DS_Store
+
+# Ignore Node.js modules
+node_modules
